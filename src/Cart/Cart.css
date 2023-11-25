@@ -1,0 +1,121 @@
+.cardss{
+    height: 150px;
+    width: 680px;
+    background-color: rgb(255, 255, 255);
+}
+.img img{
+    height: 130px;
+}
+.cart-items{
+    height: 1000px;
+    background-color: rgb(239, 239, 239);
+    margin-top: 70px;
+}
+.card-left{
+    background-color: rgb(239, 239, 239);
+    height: 100%;
+    width: 100%;
+}
+.card-right{
+    position: fixed;
+    margin-left: 46rem;
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+}
+.total-head{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: rgb(160, 160, 160);
+    font-weight: 700;
+    font-size: 15px;
+}
+.total-text{
+    padding: 15px;
+}
+.total-text span{
+    padding-left: 90px;
+}
+.total-amount{
+    padding-left: 15px;
+}
+.total-amount span{
+    padding-left: 100px;
+}
+.total-off{
+    padding-left: 15px;
+    padding-bottom: 5px;
+    color: rgb(8, 172, 8);
+}
+.buttons{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-margin{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.buttons button{
+    height: 30px;
+    width: 30px;
+    padding: 2px 3px 5px 2px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+.buttons button:hover{
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 50%;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.price{
+    font-weight: 600;
+}
+.remove{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.remove button{
+    width: 100px;
+    margin-left: 70px;
+}
+.remove span{
+    color: rgb(4, 164, 15);
+}
+.total-card{
+    width: 300px;
+    height: 300px;
+    
+}
+.order-btn button{
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 2px;
+    color: white;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .cardss{
+        height: 400px;
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        padding-left: 60px !important;
+    }
+    .card-right{
+        position: absolute;
+        height: 100vh;
+    }
+  }

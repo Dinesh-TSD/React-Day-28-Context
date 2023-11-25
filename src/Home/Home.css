@@ -1,0 +1,40 @@
+.container-fluid .bg{
+    background-color: rgb(235, 55, 55) !important;
+}
+.footer{
+    background-color: rgb(96, 22, 225);
+    margin-bottom: 0px !important;
+}
+.navbar-brand{
+    color: rgb(93, 0, 255) !important;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px 2px;
+}
+.warning{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-color: red;
+    font-size: 1rem;
+    font-family: cursive;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.card-footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: black !important;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
